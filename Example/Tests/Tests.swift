@@ -1,5 +1,4 @@
 import XCTest
-import AASScrollViewManagement
 
 class Tests: XCTestCase {
     

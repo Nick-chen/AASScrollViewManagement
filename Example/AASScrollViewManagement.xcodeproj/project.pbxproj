@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4565L95TA8;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -319,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E9D803E3841D31A3AD5CCE2 /* Pods-AASScrollViewManagement_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4565L95TA8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -340,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8773A18325347EE3BDDA526 /* Pods-AASScrollViewManagement_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4565L95TA8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

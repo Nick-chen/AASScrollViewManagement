@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38C0FE55F7A1B34391B879290E858138 /* AASDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB36C62DC497084D2C1AF4F795A16F90 /* AASDispatchQueue.swift */; };
-		3CF87749336E2686AECE3D2A7DD3728D /* AASTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002BEF68AAF96E1C8CE3206893C4A2AC /* AASTableView.swift */; };
-		40C0A2EE0DAB722A17140E681E4608FB /* AASScrollViewManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C958B964A176AFF1210C1A2EC258C5 /* AASScrollViewManagement-dummy.m */; };
-		498CE03EC6B0140E049223CD8B0CEAFE /* AASVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3497EEA5EEE3D7C3E56DF3F12DCB78 /* AASVCExtension.swift */; };
-		5BAAFDFCD8EE8C759D8D8D2B6E5E5323 /* LTPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D8791C272BBB691B78064CB6B3518 /* LTPageView.swift */; };
-		5EC6647B59688A212E6E8D196D4DCC78 /* AASScrollExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B89DE42ED7E8ECD852654FDF78024B /* AASScrollExtension.swift */; };
+		0D7A9831C2E1A2EDA82CFEFF4907E3B9 /* AASScrollViewManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28AA5C75033EB56CFA63ECA434650 /* AASScrollViewManagement-dummy.m */; };
+		1693F59D736C5A077496F27C36FDB550 /* AASScrollViewManagement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E223CC0D9EAE33E67FA6E22FE7EF482 /* AASScrollViewManagement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B74957D75AB758F32E58F75337B88C8 /* Pods-AASScrollViewManagement_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0275855AF7CBB552C06217DB2E2B913D /* Pods-AASScrollViewManagement_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79A79FD97827639B5111D6D217A9EBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8061D9C783F544AA0670465E8C3EB88B /* Pods-AASScrollViewManagement_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF6B18831FD7C2CB8457CFE5B0589A /* Pods-AASScrollViewManagement_Tests-dummy.m */; };
-		937CC9D2B75C6B6D4180FD9FB77DC63D /* AASAdvancedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADEF143F4A2EB787B725194280009FC /* AASAdvancedManager.swift */; };
-		A102D335BBEC245D7E475FC866EDF098 /* AASTableViewProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8928EC69F1C1CC27AB9BE71F68346 /* AASTableViewProtocal.swift */; };
+		88F99F012E213DD77728563C182116E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C0B4EC95C8A55A245B3CE383090CEBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DC373714CA1C8FD85987A2824C3264A5 /* AASScrollViewManagement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699E40AA87D34230F1ED0A9FC243F73A /* AASScrollViewManagement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0EA3B4D1C505D628C057EBDD539EDF /* AASSimpleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF43CC2820D3165D40E56C45041DA70 /* AASSimpleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,51 +20,43 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC844465E8F19DD212BDC29294BB55EE;
+			remoteGlobalIDString = CA5F29D2475FABD6B556B692B4B08302;
 			remoteInfo = AASScrollViewManagement;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002BEF68AAF96E1C8CE3206893C4A2AC /* AASTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASTableView.swift; path = AASScrollViewManagement/Classes/AASTableView.swift; sourceTree = "<group>"; };
-		00C958B964A176AFF1210C1A2EC258C5 /* AASScrollViewManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AASScrollViewManagement-dummy.m"; sourceTree = "<group>"; };
 		0275855AF7CBB552C06217DB2E2B913D /* Pods-AASScrollViewManagement_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AASScrollViewManagement_Tests-umbrella.h"; sourceTree = "<group>"; };
-		03B89DE42ED7E8ECD852654FDF78024B /* AASScrollExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASScrollExtension.swift; path = AASScrollViewManagement/Classes/AASScrollExtension.swift; sourceTree = "<group>"; };
 		05DE0D57D02ACD1B746F6659463F49BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135037DB69CD157CB1B4E3A22A81FFC3 /* Pods-AASScrollViewManagement_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AASScrollViewManagement_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		186B442E8A0D38A8F2E0163F2E2058C9 /* AASScrollViewManagement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASScrollViewManagement.xcconfig; sourceTree = "<group>"; };
+		1B88DE2F5BAB1BA8B29E9B56D73DE6B7 /* AASScrollViewManagement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AASScrollViewManagement.modulemap; sourceTree = "<group>"; };
 		1D244AA887A1B90BABA729AE4CAB1A96 /* Pods-AASScrollViewManagement_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AASScrollViewManagement_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DEB1ED09DF920AA0214993DEFD88378 /* Pods-AASScrollViewManagement_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AASScrollViewManagement_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2896DC37949F20D4CEA9AE9BC60019F9 /* AASScrollViewManagement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASScrollViewManagement.xcconfig; sourceTree = "<group>"; };
+		24AF781917D075148C86F21440E8A487 /* AASScrollViewManagement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASScrollViewManagement-prefix.pch"; sourceTree = "<group>"; };
 		321F27916543E04ABBAEEC8B6DA5D440 /* Pods-AASScrollViewManagement_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASScrollViewManagement_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		360A80EB88352C8C77CA7AA5C5162C76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5BA0A579BA3159155446EDEF87C06C /* Pods-AASScrollViewManagement_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AASScrollViewManagement_Tests.modulemap"; sourceTree = "<group>"; };
-		4BB345A6BCDAF2E261B2BD06BBE5C60E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		589CB6662B03A081E1A4C40F5935EDF8 /* Pods_AASScrollViewManagement_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AASScrollViewManagement_Tests.framework; path = "Pods-AASScrollViewManagement_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59BF967F5E9C58240B3B67FA9ED6D9A2 /* AASScrollViewManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AASScrollViewManagement.framework; path = AASScrollViewManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E223CC0D9EAE33E67FA6E22FE7EF482 /* AASScrollViewManagement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASScrollViewManagement-umbrella.h"; sourceTree = "<group>"; };
+		589CB6662B03A081E1A4C40F5935EDF8 /* Pods_AASScrollViewManagement_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AASScrollViewManagement_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF967F5E9C58240B3B67FA9ED6D9A2 /* AASScrollViewManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AASScrollViewManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		699E40AA87D34230F1ED0A9FC243F73A /* AASScrollViewManagement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASScrollViewManagement-umbrella.h"; sourceTree = "<group>"; };
 		6C2795C4C8E0A48F6DF8C542FC1F36EB /* Pods-AASScrollViewManagement_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AASScrollViewManagement_Tests-resources.sh"; sourceTree = "<group>"; };
-		70F8928EC69F1C1CC27AB9BE71F68346 /* AASTableViewProtocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASTableViewProtocal.swift; path = AASScrollViewManagement/Classes/AASTableViewProtocal.swift; sourceTree = "<group>"; };
-		7141C7F600CDADB3D700F24010D58A7B /* AASScrollViewManagement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AASScrollViewManagement.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A05D8791C272BBB691B78064CB6B3518 /* LTPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTPageView.swift; path = AASScrollViewManagement/Classes/LTPageView.swift; sourceTree = "<group>"; };
-		AE20B8AABD5D81D8DCEFE987BB8EC215 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9574281F30BF6FCD163932BC536CFD09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9F28AA5C75033EB56CFA63ECA434650 /* AASScrollViewManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AASScrollViewManagement-dummy.m"; sourceTree = "<group>"; };
 		B2DF6B18831FD7C2CB8457CFE5B0589A /* Pods-AASScrollViewManagement_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AASScrollViewManagement_Tests-dummy.m"; sourceTree = "<group>"; };
-		CD3497EEA5EEE3D7C3E56DF3F12DCB78 /* AASVCExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASVCExtension.swift; path = AASScrollViewManagement/Classes/AASVCExtension.swift; sourceTree = "<group>"; };
-		CE20D50B7FEAEDD752CF29659B473682 /* AASScrollViewManagement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AASScrollViewManagement.modulemap; sourceTree = "<group>"; };
-		DCF45736AC3698A0294D2F5D88B90AE7 /* AASScrollViewManagement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASScrollViewManagement-prefix.pch"; sourceTree = "<group>"; };
+		C11691610ADC7A16ABDD018F18361BAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E2D4C388374273CCDB242BEA278600 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D3C74867AC5B98BB87071136B22A3512 /* AASScrollViewManagement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AASScrollViewManagement.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5EC8AA4D429179C4B3948193330E7FB /* Pods-AASScrollViewManagement_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASScrollViewManagement_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FADEF143F4A2EB787B725194280009FC /* AASAdvancedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASAdvancedManager.swift; path = AASScrollViewManagement/Classes/AASAdvancedManager.swift; sourceTree = "<group>"; };
-		FAF43CC2820D3165D40E56C45041DA70 /* AASSimpleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASSimpleManager.swift; path = AASScrollViewManagement/Classes/AASSimpleManager.swift; sourceTree = "<group>"; };
-		FB36C62DC497084D2C1AF4F795A16F90 /* AASDispatchQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASDispatchQueue.swift; path = AASScrollViewManagement/Classes/AASDispatchQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6ED6E3A43886276D8FAB32B2EFA63E11 /* Frameworks */ = {
+		243730ECC6E692B5C174C5C96FAA52E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A79FD97827639B5111D6D217A9EBA3 /* Foundation.framework in Frameworks */,
+				88F99F012E213DD77728563C182116E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,22 +71,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A923EFCD3FCC3152E435F8D97299FD9 /* Development Pods */ = {
+		4B92A9EA2FA49686C0D4AB22ABE8D53F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF743773E00DA2EBDAF4B1FC2129E660 /* AASScrollViewManagement */,
+				D8A102E6E1A4E9A82114F6817D8F62FF /* AASScrollViewManagement */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5DD56126997246372F6172FC7C22123E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7141C7F600CDADB3D700F24010D58A7B /* AASScrollViewManagement.podspec */,
-				4BB345A6BCDAF2E261B2BD06BBE5C60E /* LICENSE */,
-				AE20B8AABD5D81D8DCEFE987BB8EC215 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		62A0E94E7CDF004AE05EF6BD5F1843CB /* Products */ = {
@@ -118,11 +92,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1A923EFCD3FCC3152E435F8D97299FD9 /* Development Pods */,
+				4B92A9EA2FA49686C0D4AB22ABE8D53F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				62A0E94E7CDF004AE05EF6BD5F1843CB /* Products */,
 				91CC28493D2A32D1ECAD85C2B6B5CF86 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80135326BFEAE5670F9FFC1958B2EAEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3C74867AC5B98BB87071136B22A3512 /* AASScrollViewManagement.podspec */,
+				D2E2D4C388374273CCDB242BEA278600 /* LICENSE */,
+				9574281F30BF6FCD163932BC536CFD09 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		86769C7D60E075CE36357ECF5ED25627 /* Pods-AASScrollViewManagement_Tests */ = {
@@ -143,30 +127,26 @@
 			path = "Target Support Files/Pods-AASScrollViewManagement_Tests";
 			sourceTree = "<group>";
 		};
+		8F55BA295641396FBAACB18EF2C0D8D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B88DE2F5BAB1BA8B29E9B56D73DE6B7 /* AASScrollViewManagement.modulemap */,
+				186B442E8A0D38A8F2E0163F2E2058C9 /* AASScrollViewManagement.xcconfig */,
+				A9F28AA5C75033EB56CFA63ECA434650 /* AASScrollViewManagement-dummy.m */,
+				24AF781917D075148C86F21440E8A487 /* AASScrollViewManagement-prefix.pch */,
+				4E223CC0D9EAE33E67FA6E22FE7EF482 /* AASScrollViewManagement-umbrella.h */,
+				C11691610ADC7A16ABDD018F18361BAD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AASScrollViewManagement";
+			sourceTree = "<group>";
+		};
 		91CC28493D2A32D1ECAD85C2B6B5CF86 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				86769C7D60E075CE36357ECF5ED25627 /* Pods-AASScrollViewManagement_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF743773E00DA2EBDAF4B1FC2129E660 /* AASScrollViewManagement */ = {
-			isa = PBXGroup;
-			children = (
-				FADEF143F4A2EB787B725194280009FC /* AASAdvancedManager.swift */,
-				FB36C62DC497084D2C1AF4F795A16F90 /* AASDispatchQueue.swift */,
-				03B89DE42ED7E8ECD852654FDF78024B /* AASScrollExtension.swift */,
-				FAF43CC2820D3165D40E56C45041DA70 /* AASSimpleManager.swift */,
-				002BEF68AAF96E1C8CE3206893C4A2AC /* AASTableView.swift */,
-				70F8928EC69F1C1CC27AB9BE71F68346 /* AASTableViewProtocal.swift */,
-				CD3497EEA5EEE3D7C3E56DF3F12DCB78 /* AASVCExtension.swift */,
-				A05D8791C272BBB691B78064CB6B3518 /* LTPageView.swift */,
-				5DD56126997246372F6172FC7C22123E /* Pod */,
-				CE0B8388F536878B0DDB52EA8523F8EC /* Support Files */,
-			);
-			name = AASScrollViewManagement;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -177,20 +157,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE0B8388F536878B0DDB52EA8523F8EC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CE20D50B7FEAEDD752CF29659B473682 /* AASScrollViewManagement.modulemap */,
-				2896DC37949F20D4CEA9AE9BC60019F9 /* AASScrollViewManagement.xcconfig */,
-				00C958B964A176AFF1210C1A2EC258C5 /* AASScrollViewManagement-dummy.m */,
-				DCF45736AC3698A0294D2F5D88B90AE7 /* AASScrollViewManagement-prefix.pch */,
-				699E40AA87D34230F1ED0A9FC243F73A /* AASScrollViewManagement-umbrella.h */,
-				360A80EB88352C8C77CA7AA5C5162C76 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AASScrollViewManagement";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,14 +165,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D8A102E6E1A4E9A82114F6817D8F62FF /* AASScrollViewManagement */ = {
+			isa = PBXGroup;
+			children = (
+				80135326BFEAE5670F9FFC1958B2EAEC /* Pod */,
+				8F55BA295641396FBAACB18EF2C0D8D5 /* Support Files */,
+			);
+			name = AASScrollViewManagement;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		87345F3AD31F998780CB691138BCE611 /* Headers */ = {
+		3C7E34CD0398619274B78F809B0E4D7E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC373714CA1C8FD85987A2824C3264A5 /* AASScrollViewManagement-umbrella.h in Headers */,
+				1693F59D736C5A077496F27C36FDB550 /* AASScrollViewManagement-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,13 +215,13 @@
 			productReference = 589CB6662B03A081E1A4C40F5935EDF8 /* Pods_AASScrollViewManagement_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BC844465E8F19DD212BDC29294BB55EE /* AASScrollViewManagement */ = {
+		CA5F29D2475FABD6B556B692B4B08302 /* AASScrollViewManagement */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E377FA727CE72AD59A2D08850DFD6655 /* Build configuration list for PBXNativeTarget "AASScrollViewManagement" */;
+			buildConfigurationList = 807DEF4E632EEF3C047A9007BFEC75CC /* Build configuration list for PBXNativeTarget "AASScrollViewManagement" */;
 			buildPhases = (
-				96D692AEE9896DEF372FC55A922F4A26 /* Sources */,
-				6ED6E3A43886276D8FAB32B2EFA63E11 /* Frameworks */,
-				87345F3AD31F998780CB691138BCE611 /* Headers */,
+				28A156D6466DFF6E2BDC5FA0F0E8AC19 /* Sources */,
+				243730ECC6E692B5C174C5C96FAA52E6 /* Frameworks */,
+				3C7E34CD0398619274B78F809B0E4D7E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -264,6 +240,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					CA5F29D2475FABD6B556B692B4B08302 = {
+						DevelopmentTeam = 4565L95TA8;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,26 +258,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC844465E8F19DD212BDC29294BB55EE /* AASScrollViewManagement */,
+				CA5F29D2475FABD6B556B692B4B08302 /* AASScrollViewManagement */,
 				4DA725F42B9C11715FA527518F8283B8 /* Pods-AASScrollViewManagement_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96D692AEE9896DEF372FC55A922F4A26 /* Sources */ = {
+		28A156D6466DFF6E2BDC5FA0F0E8AC19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937CC9D2B75C6B6D4180FD9FB77DC63D /* AASAdvancedManager.swift in Sources */,
-				38C0FE55F7A1B34391B879290E858138 /* AASDispatchQueue.swift in Sources */,
-				5EC6647B59688A212E6E8D196D4DCC78 /* AASScrollExtension.swift in Sources */,
-				40C0A2EE0DAB722A17140E681E4608FB /* AASScrollViewManagement-dummy.m in Sources */,
-				DF0EA3B4D1C505D628C057EBDD539EDF /* AASSimpleManager.swift in Sources */,
-				3CF87749336E2686AECE3D2A7DD3728D /* AASTableView.swift in Sources */,
-				A102D335BBEC245D7E475FC866EDF098 /* AASTableViewProtocal.swift in Sources */,
-				498CE03EC6B0140E049223CD8B0CEAFE /* AASVCExtension.swift in Sources */,
-				5BAAFDFCD8EE8C759D8D8D2B6E5E5323 /* LTPageView.swift in Sources */,
+				0D7A9831C2E1A2EDA82CFEFF4907E3B9 /* AASScrollViewManagement-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +287,45 @@
 		B2806CE1D5F37455E23D6E16BEE254E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AASScrollViewManagement;
-			target = BC844465E8F19DD212BDC29294BB55EE /* AASScrollViewManagement */;
+			target = CA5F29D2475FABD6B556B692B4B08302 /* AASScrollViewManagement */;
 			targetProxy = 4EFABD4A222408C158A19CC774FF4828 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		37F36AB32F3AC46DAAAFBB67A1828085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186B442E8A0D38A8F2E0163F2E2058C9 /* AASScrollViewManagement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4565L95TA8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AASScrollViewManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement.modulemap";
+				PRODUCT_MODULE_NAME = AASScrollViewManagement;
+				PRODUCT_NAME = AASScrollViewManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5A287BB15AB34B6B4B1C824E8ABA089C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5EC8AA4D429179C4B3948193330E7FB /* Pods-AASScrollViewManagement_Tests.release.xcconfig */;
@@ -354,38 +360,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		86EFF5AB1338CA12785C7C5329F38738 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2896DC37949F20D4CEA9AE9BC60019F9 /* AASScrollViewManagement.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AASScrollViewManagement/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement.modulemap";
-				PRODUCT_MODULE_NAME = AASScrollViewManagement;
-				PRODUCT_NAME = AASScrollViewManagement;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -508,39 +482,6 @@
 			};
 			name = Release;
 		};
-		BF581401891446136AFD2FAE03E85D3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2896DC37949F20D4CEA9AE9BC60019F9 /* AASScrollViewManagement.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AASScrollViewManagement/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement.modulemap";
-				PRODUCT_MODULE_NAME = AASScrollViewManagement;
-				PRODUCT_NAME = AASScrollViewManagement;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F2A577A5817793179E59DC844E215C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 321F27916543E04ABBAEEC8B6DA5D440 /* Pods-AASScrollViewManagement_Tests.debug.xcconfig */;
@@ -576,6 +517,40 @@
 			};
 			name = Debug;
 		};
+		F55B187965A0F8EC4B4CD3319427088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186B442E8A0D38A8F2E0163F2E2058C9 /* AASScrollViewManagement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4565L95TA8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AASScrollViewManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AASScrollViewManagement/AASScrollViewManagement.modulemap";
+				PRODUCT_MODULE_NAME = AASScrollViewManagement;
+				PRODUCT_NAME = AASScrollViewManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,11 +572,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E377FA727CE72AD59A2D08850DFD6655 /* Build configuration list for PBXNativeTarget "AASScrollViewManagement" */ = {
+		807DEF4E632EEF3C047A9007BFEC75CC /* Build configuration list for PBXNativeTarget "AASScrollViewManagement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86EFF5AB1338CA12785C7C5329F38738 /* Debug */,
-				BF581401891446136AFD2FAE03E85D3D /* Release */,
+				37F36AB32F3AC46DAAAFBB67A1828085 /* Debug */,
+				F55B187965A0F8EC4B4CD3319427088D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
