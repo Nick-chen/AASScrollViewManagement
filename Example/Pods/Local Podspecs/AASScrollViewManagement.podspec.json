@@ -1,0 +1,22 @@
+{
+  "name": "AASScrollViewManagement",
+  "version": "0.1.0",
+  "summary": "A short description of AASScrollViewManagement.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/demon.chen@icloud.com/AASScrollViewManagement",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "demon.chen@icloud.com": "demon.chen@earlydata.com"
+  },
+  "source": {
+    "git": "https://github.com/demon.chen@icloud.com/AASScrollViewManagement.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AASScrollViewManagement/Classes/**/*"
+}

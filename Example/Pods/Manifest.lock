@@ -1,0 +1,16 @@
+PODS:
+  - AASScrollViewManagement (0.1.0)
+
+DEPENDENCIES:
+  - AASScrollViewManagement (from `../`)
+
+EXTERNAL SOURCES:
+  AASScrollViewManagement:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AASScrollViewManagement: 0a4726e9ba15db8c6b09c61daae58a02f86162e2
+
+PODFILE CHECKSUM: 8e0b3e7bcb286b0d5194a2d9e9b2ba7da2cc6149
+
+COCOAPODS: 1.5.3
