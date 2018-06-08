@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AASScrollViewManagement_Tests' do
+  pod 'AASScrollViewManagement', :path => '../'
+  
+  
+end
