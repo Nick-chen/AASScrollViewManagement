@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'AASScrollViewManagement/Classes/**/*'
+  s.swift_version = '4.1'
   
   # s.resource_bundles = {
   #   'AASScrollViewManagement' => ['AASScrollViewManagement/Assets/*.png']
